@@ -1024,12 +1024,67 @@
 
 		/*works page*/
 
-.works-page body {
-	display: flex;
-	justify-content: space-evenly;
-	margin: 10%;
+.works-page {
+	width: 100%;
+	margin: 5%;
 }
 
-.works-page body h1 {
+.works-page header {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.works-page h1 {
+	padding: 0 6%;
 	font-size: 72px;
+	border: 2px dotted black;
+	text-align: center;
+	font-weight: bold;
+}
+
+.works-page p {
+	text-align: center;
+	width: 20%;
+
+}
+
+body hr {
+	width: 80%;
+	margin-left: 10%;
+}
+
+.project-list {
+	width: 85%;
+	display: flex;
+	justify-content: space-evenly;
+	margin-left: 10%;
+	flex-wrap: wrap;
+}
+
+h2 {
+	font-size: 24px;
+	width: 20%;
+	margin-top: 15%;
+}
+
+.sprint-challenge {
+	padding: 1%;
+	border: 1px solid black;
+	height: 30%;
+	width: 30%;
+	margin: 0 10%;
+}
+
+.great-idea-img {
+	margin: 10% 5% 0 0;
+	width: 30%;
+	height: 30%;
+	margin-right: 20%;
+}
+
+.great-idea-text {
+	margin-top: 10%;
+	width: 30%;
+	text-align: center;
 }
